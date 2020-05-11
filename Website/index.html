@@ -24,19 +24,19 @@ body, html {
 
 /* First image (Logo. Full height) */
 .bgimg-1 {
-  background-image: url('/images/Yosemite.jpg');
+  background-image: url('./images/Yosemite.jpg');
   min-height: 100%;
 }
 
 /* Second image (Portfolio) */
 .bgimg-2 {
-  background-image: url("/w3images/parallax2.jpg");
+  background-image: url('./images/Work.jpg');
   min-height: 400px;
 }
 
 /* Third image (Contact) */
 .bgimg-3 {
-  background-image: url("/w3images/parallax3.jpg");
+  background-image: url('./images/Half.jpg');
   min-height: 400px;
 }
 
@@ -60,132 +60,121 @@ body, html {
       <i class="fa fa-bars"></i>
     </a>
     <a href="#home" class="w3-bar-item w3-button">HOME</a>
-    <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
-    <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> PORTFOLIO</a>
-    <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
-    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
-      <i class="fa fa-search"></i>
-    </a>
+    <a href="#about" class="w3-bar-item w3-button w3-hide-small"> ABOUT</a>
+    <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"> RESEARCH</a>
+    <a href="https://anna-boser.github.io/Website/Resume.pdf" class="w3-bar-item w3-button w3-hide-small"> CV</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-hide-small"> CONTACT</a>
+    <a href="https://anna-boser.github.io/Blog/" class="w3-bar-item w3-button w3-hide-small w3-right"> BLOG</a>
   </div>
 
   <!-- Navbar on small screens -->
   <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
-    <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
-    <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
-    <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
-    <a href="#" class="w3-bar-item w3-button">SEARCH</a>
+    <a href="#about" class="w3-bar-item w3-button w3-hide-small"> ABOUT</a>
+    <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"> RESEARCH</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-hide-small"> CV</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-hide-small"> CONTACT</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right"> BLOG</a>
   </div>
 </div>
 
 <!-- First Parallax Image with Logo Text -->
 <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
   <div class="w3-display-middle" style="white-space:nowrap;">
-    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">MY <span class="w3-hide-small">WEBSITE</span> LOGO</span>
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">ANNA BOSER</span>
   </div>
 </div>
 
 <!-- Container (About Section) -->
 <div class="w3-content w3-container w3-padding-64" id="about">
   <h3 class="w3-center">ABOUT ME</h3>
-  <p class="w3-center"><em>I love photography</em></p>
-  <p>We have created a fictional "personal" website/blog, and our fictional character is a hobby photographer. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
-    qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  <p class="w3-center"><em>Environmental Science, Public Health, and Statistics.</em></p>
+  <p>I am a PhD student at the Bren School for Environmental Science and Management at UC Santa Barbara.
+    My work is supported by the NSF GRFP and the Eugene Cota-Robles Fellowship.
+    I am also the 2020 recipient of UC Berkeley's University Medal.
+  </p>
   <div class="w3-row">
     <div class="w3-col m6 w3-center w3-padding-large">
-      <p><b><i class="fa fa-user w3-margin-right"></i>My Name</b></p><br>
-      <img src="/w3images/avatar_hat.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="500" height="333">
+      <img src="./images/Map.jpg" class="w3-round w3-image w3-padding-large" alt="Photo of Me" width="500" height="333">
     </div>
 
     <!-- Hide this text on small devices -->
     <div class="w3-col m6 w3-hide-small w3-padding-large">
-      <p>Welcome to my website. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor
-        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <p> I am an environmental scientist, statistician, and epidemiologist.
+      My primary interests lie in using quantitative methods to gain understanding surrounding ecological processes that humans rely on for health and wellbeing.
+      My most recent project considers the particulate matter emissions and public health effects of prescribed burns in California.
+      However, my previous work has spanned from HIV in French Guiana, to Early Marriage in Niger, and I am currently collaborating on a project simulating the effect of school closures on the COVID-19 epidemic.
+      </p>
     </div>
-  </div>
-  <p class="w3-large w3-center w3-padding-16">Im really good at:</p>
-  <p class="w3-wide"><i class="fa fa-camera"></i>Photography</p>
-  <div class="w3-light-grey">
-    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:90%">90%</div>
-  </div>
-  <p class="w3-wide"><i class="fa fa-laptop"></i>Web Design</p>
-  <div class="w3-light-grey">
-    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:85%">85%</div>
-  </div>
-  <p class="w3-wide"><i class="fa fa-photo"></i>Photoshop</p>
-  <div class="w3-light-grey">
-    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:75%">75%</div>
-  </div>
-</div>
-
-<div class="w3-row w3-center w3-dark-grey w3-padding-16">
-  <div class="w3-quarter w3-section">
-    <span class="w3-xlarge">14+</span><br>
-    Partners
-  </div>
-  <div class="w3-quarter w3-section">
-    <span class="w3-xlarge">55+</span><br>
-    Projects Done
-  </div>
-  <div class="w3-quarter w3-section">
-    <span class="w3-xlarge">89+</span><br>
-    Happy Clients
-  </div>
-  <div class="w3-quarter w3-section">
-    <span class="w3-xlarge">150+</span><br>
-    Meetings
   </div>
 </div>
 
 <!-- Second Parallax Image with Portfolio Text -->
 <div class="bgimg-2 w3-display-container w3-opacity-min">
   <div class="w3-display-middle">
-    <span class="w3-xxlarge w3-text-white w3-wide">PORTFOLIO</span>
+    <span class="w3-xxlarge w3-text-white w3-wide">RESEARCH</span>
   </div>
 </div>
 
 <!-- Container (Portfolio Section) -->
 <div class="w3-content w3-container w3-padding-64" id="portfolio">
   <h3 class="w3-center">MY WORK</h3>
-  <p class="w3-center"><em>Here are some of my latest lorem work ipsum tipsum.<br> Click on the images to make them bigger</em></p><br>
+  <p class="w3-center"><em>Here are some of the projects I've been involved in.</em></p>
 
-  <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
-  <div class="w3-row-padding w3-center">
-    <div class="w3-col m3">
-      <img src="/w3images/p1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist over the mountains">
+  <div class="w3-row">
+    <!-- Hide this text on small devices -->
+    <div class="w3-col m6 w3-hide-small">
+      <h3 class="w3-center">COVID-19 in Schools</h3>
+      <p>In an effort to curb the COVID-19 epidemic, government officials have halted the functioning of many institutions, including schools.
+        However, many questions remain unanswered regarding the effectiveness of this intervention, and if and when to reopen schools.
+        This project, conducted by the Remais Group at UC Berkeley, uses an agent based SEIR model to assess the effect of school closures on the COVID-19 epidemic in the Bay Area.
+      </p>
     </div>
 
-    <div class="w3-col m3">
-      <img src="/w3images/p2.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Coffee beans">
-    </div>
-
-    <div class="w3-col m3">
-      <img src="/w3images/p3.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Bear closeup">
-    </div>
-
-    <div class="w3-col m3">
-      <img src="/w3images/p4.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Quiet ocean">
+    <div class="w3-col m6 w3-center w3-padding-large">
+      <img src="./images/COVID.jpg" class="w3-round w3-image" alt="Photo of Me" width="500" height="333">
     </div>
   </div>
 
-  <div class="w3-row-padding w3-center w3-section">
-    <div class="w3-col m3">
-      <img src="/w3images/p5.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist">
+  <div class="w3-row">
+    <div class="w3-col m6 w3-center w3-padding-large">
+      <img src="./images/PRBU.jpg" class="w3-round w3-image" alt="Photo of Me" width="500" height="333">
     </div>
 
-    <div class="w3-col m3">
-      <img src="/w3images/p6.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="My beloved typewriter">
+    <!-- Hide this text on small devices -->
+    <div class="w3-col m6 w3-hide-small">
+      <h3 class="w3-center">Health Effects of Prescribed Burns</h3>
+      <p>As the frequency and intensity of catastrophic wildfires increases in California, there is an increased insentive to conduct extensive prescribed burning.
+        However, there are many unanswered questions surrounding the potential negative health effects from the smoke from these prescribed burns.
+        Conducted with the Potts Group at UC Berkeley, this project aims to gain a better understanding of the emissions and health effects of prescribed fires, especially in comparison to wildfires.</p>
+    </div>
+  </div>
+
+  <div class="w3-row">
+    <!-- Hide this text on small devices -->
+    <div class="w3-col m6 w3-hide-small">
+      <h3 class="w3-center">Early Marriage in West Africa</h3>
+      <p>Early marriage continues to be common practice among rural Hausa communities in Niger and Nigeria, despite the known detrimental public health and economic impacts.
+      Sponsored by the Center for Girls' Education, this projects aims to gain a deeper understanding of the cultural and social processes that underlie early marriage, as well as uncover opportunities for agency by the girls in the marriage process.</p>
     </div>
 
-    <div class="w3-col m3">
-      <img src="/w3images/p7.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Empty ghost train">
+    <div class="w3-col m6 w3-center w3-padding-large">
+      <img src="./images/Niger.JPG" class="w3-round w3-image" alt="Photo of Me" width="500" height="333">
+    </div>
+  </div>
+
+  <div class="w3-row">
+    <div class="w3-col m6 w3-center w3-padding-large">
+      <img src="./images/FRGU.jpg" class="w3-round w3-image" alt="Photo of Me" width="500" height="333">
     </div>
 
-    <div class="w3-col m3">
-      <img src="/w3images/p8.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Sailing">
+    <!-- Hide this text on small devices -->
+    <div class="w3-col m6 w3-hide-small">
+      <h3 class="w3-center">HIV in French Guiana</h3>
+      <p>According to the World Health Organization, French Guiana is the site of a generalized HIV epidemic.
+        On the border of French Guiana and Brazil, the prevalence and severity of HIV cases is significantly more severe.
+        In partnership with IDsante, a local NGO, this project aims to characterize the epidemic on the border and investigate the contibuting social, economic, and political factors.
+      </p>
     </div>
-    <button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">LOAD MORE</button>
   </div>
 </div>
 
@@ -207,20 +196,18 @@ body, html {
 
 <!-- Container (Contact Section) -->
 <div class="w3-content w3-container w3-padding-64" id="contact">
-  <h3 class="w3-center">WHERE I WORK</h3>
-  <p class="w3-center"><em>I'd love your feedback!</em></p>
+  <h3 class="w3-center">GET IN TOUCH</h3>
 
   <div class="w3-row w3-padding-32 w3-section">
     <div class="w3-col m4 w3-container">
-      <img src="/w3images/map.jpg" class="w3-image w3-round" style="width:100%">
+      <img src="./images/SB.jpg" class="w3-image w3-round" style="width:100%">
     </div>
     <div class="w3-col m8 w3-panel">
       <div class="w3-large w3-margin-bottom">
-        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Chicago, US<br>
-        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: +00 151515<br>
-        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: mail@mail.com<br>
+        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Santa Barbara, CA<br>
+        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: annaboser at umail.bren.com<br>
       </div>
-      <p>Swing by for a cup of <i class="fa fa-coffee"></i>, or leave me a note:</p>
+<!--      <p>Swing by for a cup of <i class="fa fa-coffee"></i>, or leave me a note:</p>
       <form action="/action_page.php" target="_blank">
         <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
           <div class="w3-half">
@@ -234,7 +221,7 @@ body, html {
         <button class="w3-button w3-black w3-right w3-section" type="submit">
           <i class="fa fa-paper-plane"></i> SEND MESSAGE
         </button>
-      </form>
+      </form> -->
     </div>
   </div>
 </div>
@@ -243,14 +230,10 @@ body, html {
 <footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
   <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
   <div class="w3-xlarge w3-section">
-    <i class="fa fa-facebook-official w3-hover-opacity"></i>
-    <i class="fa fa-instagram w3-hover-opacity"></i>
-    <i class="fa fa-snapchat w3-hover-opacity"></i>
-    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-    <i class="fa fa-twitter w3-hover-opacity"></i>
-    <i class="fa fa-linkedin w3-hover-opacity"></i>
+    <a href="" <i class="fa fa-twitter w3-hover-opacity" ></i></a>
+    <a href="https://www.linkedin.com/in/anna-boser-23b336138/" <i class="fa fa-linkedin w3-hover-opacity" ></i></a>
   </div>
-  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+  <p><a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
 </footer>
 
 <script>
