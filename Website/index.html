@@ -68,7 +68,7 @@ body, html {
     <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"> RESEARCH</a>
     <a href="https://anna-boser.github.io/Website/Resume.pdf" class="w3-bar-item w3-button w3-hide-small"> CV</a>
     <a href="#contact" class="w3-bar-item w3-button w3-hide-small"> CONTACT</a>
-    <a href="https://anna-boser.github.io/Blog/" class="w3-bar-item w3-button w3-hide-small w3-right"> BLOG</a>
+    <!--a href="https://anna-boser.github.io/Blog/" class="w3-bar-item w3-button w3-hide-small w3-right"> BLOG</a-->
   </div>
 
   <!-- Navbar on small screens -->
@@ -77,7 +77,7 @@ body, html {
     <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"> RESEARCH</a>
     <a href="#contact" class="w3-bar-item w3-button w3-hide-small"> CV</a>
     <a href="#contact" class="w3-bar-item w3-button w3-hide-small"> CONTACT</a>
-    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right"> BLOG</a>
+    <!--a href="#" class="w3-bar-item w3-button w3-hide-small w3-right"> BLOG</a-->
   </div>
 </div>
 
@@ -93,8 +93,8 @@ body, html {
   <h3 class="w3-center">ABOUT ME</h3>
   <p class="w3-center"><em>Environmental Science, Public Health, and Statistics.</em></p>
   <p>I am a PhD student at the Bren School for Environmental Science and Management at UC Santa Barbara.
-    My work is supported by the NSF GRFP and the Eugene Cota-Robles Fellowship, and Ashley Larson and Kelly Caylor co-advise me.
-    I am also the 2020 recipient of UC Berkeley's University Medal.
+    <a href="http://www.ashleylarsen.com/">Ashley Larson</a> and <a href="http://caylor.eri.ucsb.edu/">Kelly Caylor</a> co-advise me, and my work is supported by the NSF GRFP and the Eugene Cota-Robles Fellowship.
+    I am also the <a href="https://news.berkeley.edu/2020/05/11/rejection-turned-out-great-for-berkeleys-top-graduating-senior/">2020 recipient of UC Berkeley's University Medal</a>.
   </p>
   <div class="w3-row">
     <div class="w3-col m6 w3-center w3-padding-large">
@@ -106,7 +106,8 @@ body, html {
       <p> I am an environmental scientist, statistician, and epidemiologist.
       My primary interests lie in using quantitative methods to gain understanding surrounding ecological processes that humans rely on for health and wellbeing.
       My most recent project considers the particulate matter emissions and public health effects of prescribed burns in California.
-      However, my previous work has spanned from HIV in French Guiana, to Early Marriage in Niger, and I am currently collaborating on a project simulating the effect of school closures on the COVID-19 epidemic.
+      I'm also working on creating high resolution fine particulate matter grids using remotely sensed data.
+      However, my previous work has spanned from HIV in French Guiana, to Early Marriage in Niger, and the effect of school closures on the COVID-19 epidemic.
       </p>
     </div>
   </div>
@@ -125,23 +126,40 @@ body, html {
   <p class="w3-center"><em>Here are some of the projects I've been involved in.</em></p>
 
   <div class="w3-row">
+    <div class="w3-col m6 w3-center w3-padding-large">
+      <img src="./images/PM.png" class="w3-round w3-image" alt="PM map" width="500" height="333">
+    </div>
+
+    <!-- Hide this text on small devices -->
+    <div class="w3-col m6 w3-hide-small">
+      <h3 class="w3-center">Creating continuous PM<sub>2.5</sub> grids</h3>
+      <p>Fine particulate matter (PM<sub>2.5</sub>) is associated with many adverse health outcomes, and this is of particular concern in California due to the increase in high internisty wildfires.
+        Ground level particulate matter measurements are therefore important for public health monitoring and research, but high quality sensors are few and unevenly distributed across the landscape.
+        This project aims to create a 1km<sup>2</sup> daily continuous grid of PM<sub>2.5</sub> estimates in California using various publically available datasets.
+        Preliminary results were presented at NASA's OSTEM symposium. Slides can be accessed <a href="">here</a>.
+      </p>
+    </div>
+  </div>
+
+  <div class="w3-row">
     <!-- Hide this text on small devices -->
     <div class="w3-col m6 w3-hide-small">
       <h3 class="w3-center">COVID-19 in Schools</h3>
       <p>In an effort to curb the COVID-19 epidemic, government officials have halted the functioning of many institutions, including schools.
         However, many questions remain unanswered regarding the effectiveness of this intervention, and if and when to reopen schools.
         This project, conducted by the Remais Group at UC Berkeley, uses an agent based SEIR model to assess the effect of school closures on the COVID-19 epidemic in the Bay Area.
+        Results can be seen <a href="https://www.medrxiv.org/content/10.1101/2020.08.06.20169797v1">here</a>.
       </p>
     </div>
 
     <div class="w3-col m6 w3-center w3-padding-large">
-      <img src="./images/COVID.jpg" class="w3-round w3-image" alt="Photo of Me" width="500" height="333">
+      <img src="./images/COVID.jpg" class="w3-round w3-image" alt="COVID modeling" width="500" height="333">
     </div>
   </div>
 
   <div class="w3-row">
     <div class="w3-col m6 w3-center w3-padding-large">
-      <img src="./images/PRBU.jpg" class="w3-round w3-image" alt="Photo of Me" width="500" height="333">
+      <img src="./images/PRBU.jpg" class="w3-round w3-image" alt="Prescribed burn" width="500" height="333">
     </div>
 
     <!-- Hide this text on small devices -->
@@ -149,7 +167,8 @@ body, html {
       <h3 class="w3-center">Health Effects of Prescribed Burns</h3>
       <p>As the frequency and intensity of catastrophic wildfires increases in California, there is an increased insentive to conduct extensive prescribed burning.
         However, there are many unanswered questions surrounding the potential negative health effects from the smoke from these prescribed burns.
-        Conducted with the Potts Group at UC Berkeley, this project aims to gain a better understanding of the emissions and health effects of prescribed fires, especially in comparison to wildfires.</p>
+        Conducted with the Potts Group at UC Berkeley, this project aims to gain a better understanding of the emissions and health effects of prescribed fires, especially in comparison to wildfires.
+        A poster on this topic can be found <a href="https://www.researchgate.net/publication/343625587_THE_EFFECT_OF_PRESCRIBED_BURNS_AND_WILDFIRES_ON_SMOKE_COVER_AND_PM25_IN_CALIFORNIA">here</a>.</p>
     </div>
   </div>
 
@@ -158,11 +177,13 @@ body, html {
     <div class="w3-col m6 w3-hide-small">
       <h3 class="w3-center">Early Marriage in West Africa</h3>
       <p>Early marriage continues to be common practice among rural Hausa communities in Niger and Nigeria, despite the known detrimental public health and economic impacts.
-      Sponsored by the Center for Girls' Education, this projects aims to gain a deeper understanding of the cultural and social processes that underlie early marriage, as well as uncover opportunities for agency by the girls in the marriage process.</p>
+      Sponsored by the Center for Girls' Education, this projects aims to gain a deeper understanding of the cultural and social processes that underlie early marriage, as well as uncover opportunities for agency by the girls in the marriage process.
+      The manuscript for this project is in progress.
+    </p>
     </div>
 
     <div class="w3-col m6 w3-center w3-padding-large">
-      <img src="./images/Niger.JPG" class="w3-round w3-image" alt="Photo of Me" width="500" height="333">
+      <img src="./images/Niger.JPG" class="w3-round w3-image" alt="Niger" width="500" height="333">
     </div>
   </div>
 
@@ -177,6 +198,9 @@ body, html {
       <p>According to the World Health Organization, French Guiana is the site of a generalized HIV epidemic.
         On the border of French Guiana and Brazil, the prevalence and severity of HIV cases is significantly more severe.
         In partnership with IDsante, a local NGO, this project aims to characterize the epidemic on the border and investigate the contibuting social, economic, and political factors.
+        Read more about this research <a href="https://www.tandfonline.com/doi/abs/10.1080/09540121.2018.1524111?scroll=top&needAccess=true&journalCode=caic20">here</a>,
+        <a href="https://journals.lww.com/aidsonline/FullText/2018/03130/Addressing_HIV_on_the_French_Guianese_Brazilian.1.aspx?casa_token=Hk4kP5bmf6QAAAAA:oLVVA8A0bcmotNy3xHlTvjf2UZtOzoIqcXIsVC_hrWEQfVwOet-FSsx0YiI88JNWwUkA6XKg5AJe8t54NAMUzVsX">here</a>,
+        and <a href="https://www.researchgate.net/publication/320215123_VIH_SUR_LA_FRONTIERE_FRANCO-BRESILIENNE_MOBILITE_ET_PRECARITE_SUR_UNE_REGION_EN_EPIDEMIE_GENERALISEE">here</a>.
       </p>
     </div>
   </div>
@@ -209,7 +233,7 @@ body, html {
     <div class="w3-col m8 w3-panel">
       <div class="w3-large w3-margin-bottom">
         <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Santa Barbara, CA<br>
-        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: annaboser at umail.bren.com<br>
+        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: annaboser at ucsb.edu<br>
       </div>
 <!--      <p>Swing by for a cup of <i class="fa fa-coffee"></i>, or leave me a note:</p>
       <form action="/action_page.php" target="_blank">
@@ -234,7 +258,7 @@ body, html {
 <footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
   <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
   <div class="w3-xlarge w3-section">
-    <a href="" <i class="fa fa-twitter w3-hover-opacity" ></i></a>
+    <a href="https://twitter.com/BoserAnna" <i class="fa fa-twitter w3-hover-opacity" ></i></a>
     <a href="https://www.linkedin.com/in/anna-boser-23b336138/" <i class="fa fa-linkedin w3-hover-opacity" ></i></a>
     <a href="https://github.com/anna-boser" <i class="fa fa-github w3-hover-opacity" ></i></a>
   </div>
