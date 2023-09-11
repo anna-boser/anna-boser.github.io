@@ -126,7 +126,7 @@ body, html {
 
   <div class="w3-row">
     <div class="w3-col m6 w3-center w3-padding-large">
-      <img src="./images/ag.jpeg" class="w3-round w3-image" alt="agriculture" width="500" height="333">
+      <img src="./images/ET_ag.jpg" class="w3-round w3-image" alt="agriculture" width="500" height="333">
     </div>
 
     <!-- Hide this text on small devices -->
@@ -137,6 +137,39 @@ body, html {
         This project uses satellite based evapotranspiration data to compare water water lost to the atmosphere over agricultural lands versus surrounding natural lands. 
         This allows us to gain insight into which climates, crops, and irrigration practices are the most water intensive and better design water water management strategies. 
         This work is in review. 
+      </p>
+    </div>
+  </div>
+
+  <div class="w3-row">
+    <!-- Hide this text on small devices -->
+    <div class="w3-col m6">
+      <h3 class="w3-center">stagg:: A data pre-processing R package for climate impacts analysis</h3>
+      <p>stagg is an R package that transforms raw gridded climate data into tabular administrative-level variables intended for use in climate econometrics analyses. 
+        Flexible options let users control specifications like nonlinear transformations, weighted spatial aggregation, and temporal aggregation with a few lines of code. 
+        Our package GitHub is <a href=https://github.com/tcarleton/stagg>here</a>, and a helpful cheatsheet can be downloaded <a href=https://www.tammacarleton.com/_files/ugd/a0ab35_dc697daefcd84020a6e30e03cf4592a3.pdf?index=true>here</a>. 
+        It's a work in progress -- please send us feedback!
+      </p>
+    </div>
+
+    <div class="w3-col m6 w3-center w3-padding-large">
+      <img src="./images/stagg.jpg" class="w3-round w3-image" alt="stagg" width="500" height="333">
+    </div>
+  </div>
+
+  <div class="w3-row">
+    <div class="w3-col m6 w3-center w3-padding-large">
+      <img src="./images/ML-val.jpg" class="w3-round w3-image" alt="ML validation" width="500" height="333">
+    </div>
+
+    <!-- Hide this text on small devices -->
+    <div class="w3-col m6">
+      <h3 class="w3-center">Validating spatio-temporal environmental machine learning models</h3>
+      <p> Machine learning has revolutionized environmental sciences by estimating scarce environmental data. 
+        However, methods for validating the models used to generate these data often ignore the spatial or temporal structure commonly found in environmental data.
+        In this work, I invesitgate the impact such pitfalls can have on the interpretation of the validity of environmental machine learning models. 
+        I find that models with poor performance can appear to perform well when evaluated on the wrong data splits, and that this effect is exacerbated when not accounting for Simpson's paradox.
+        The manuscript is in review. 
       </p>
     </div>
   </div>
@@ -158,17 +191,16 @@ body, html {
 
   <div class="w3-row">
     <div class="w3-col m6 w3-center w3-padding-large">
-      <img src="./images/PM.png" class="w3-round w3-image" alt="PM map" width="500" height="333">
+      <img src="./images/super-res.jpg" class="w3-round w3-image" alt="Super-resolution" width="500" height="333">
     </div>
 
     <!-- Hide this text on small devices -->
     <div class="w3-col m6">
-      <h3 class="w3-center">Validating spatio-temporal environmental machine learning models</h3>
-      <p> Machine learning has revolutionized environmental sciences by estimating scarce environmental data. 
-        However, methods for validating the models used to generate these data often ignore the spatial or temporal structure commonly found in environmental data.
-        In this work, I invesitgate the impact such pitfalls can have on the interpretation of the validity of environmental machine learning models. 
-        I find that models with poor performance can appear to perform well when evaluated on the wrong data splits, and that this effect is exacerbated when not accounting for Simpson's paradox.
-        The manuscript is in review. 
+      <h3 class="w3-center">Downscaling remote sensing data using deep learning</h3>
+      <p>High resolution remote sensing data has revolutionized the environmental sciences, but some key data types are only available at coarse resolutions. 
+        This project uses deep learning to downscale coarse resolution data to fine resolution data. 
+        We use a U-Net architecture to predict fine resolution land surface temperature from coarse resolution land surface temperature and high resolution red, green, and blue imagery.
+        We additionally devise a strategy to minimize the amount of ground truth data needed to train the model. 
       </p>
     </div>
   </div>
