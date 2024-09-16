@@ -235,7 +235,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .w3-border-pale-yellow,.w3-hover-border-pale-yellow:hover{border-color:#ffffcc!important}.w3-border-pale-blue,.w3-hover-border-pale-blue:hover{border-color:#e7ffff!important}
 .w3-bar {
     background-color: rgba(255, 255, 255, 0.6); /* Semi-transparent black */
-    color: black; /* Text color */
+    /* color: black; /* Text color */
   }
   .w3-bar-item {
     background-color: transparent; /* Make buttons transparent */
